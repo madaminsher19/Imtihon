@@ -1,0 +1,86 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    &__left {
+        max-width: 500px;
+        // height: 243px;
+        flex-shrink: 0;
+        margin-top: 100px;
+    }
+    &__name {
+        color: #36536b;
+        font-family: "DM Serif Display";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 72px; /* 100% */
+    }
+    &__form {
+        display: flex;
+    }
+    &__input {
+        border-radius: 24px;
+        background: #fbfcfe;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        width: 445px;
+        height: 48px;
+        flex-shrink: 0;
+        border: none;
+        padding: 16px 25px;
+        cursor: pointer;
+    }
+    &__btn {
+        margin-left: -200px;
+        width: 200px;
+        height: 48px;
+    }
+    &__text {
+        margin-left: 27px;
+        margin-top: 16px;
+    }
+    &__span {
+        color: #6c8294;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__span1 {
+        color: #6c8294;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        &__left {
+            margin: 0 auto;
+        }
+        &__input {
+            margin: 0 auto;
+        }
+    }
+}
+@media only screen and (max-width: 650px) {
+    .hero {
+        &__name {
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px; /* 112.5% */
+        }
+        &__form {
+            display: block;
+        }
+        &__btn {
+            display: block;
+            margin: 10px auto 0;
+            width: 445px;
+            height: 48px;
+        }
+    }
+}

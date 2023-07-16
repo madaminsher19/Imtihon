@@ -1,4 +1,36 @@
+@import "./header";
+@import "./btn";
+@import "./hero";
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family: "DM Serif Display";
+    src: url(../Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: "Public Sans";
+    src: url(../Fonts/Public_Sans/PublicSans-VariableFont_wght.ttf);
+}
+body{
+    font-family: "Public Sans";
+}
+.background{
+    background: #EDF3F8;
+    z-index: 0;
+}
+.background::before{
+    content: url(../img/svj/Before.svg);
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
 }

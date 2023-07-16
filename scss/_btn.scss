@@ -1,0 +1,42 @@
+.btn {
+    // flex-shrink: 0;
+    &__style {
+        width: 200px;
+        height: 48px;
+        background: #ba4270;
+        border-radius: 24px;
+        border: none;
+        color: #fbfcfe;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        cursor: pointer;
+    }
+}
+.btn i{
+    display: none;
+}
+.btn__style:hover {
+   
+    background: #da6d97;
+   
+}
+.btn__style:active {
+    
+    background: #da6d9750;
+
+}
+
+@media only screen and (max-width:650px){
+.btn{
+    &__style{
+
+        display: none;
+    }
+
+}
+.btn i{
+    display: block;
+}
+}
