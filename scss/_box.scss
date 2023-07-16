@@ -1,0 +1,76 @@
+.background {
+    background: #edf3f8;
+}
+.box {
+    display: flex;
+    padding-top: 150px;
+    &__top {
+        display: flex;
+        gap: 5px;
+        border-radius: 8px 8px 0px 0px;
+        background: #2e3f4d;
+        width: 445px;
+        height: 40px;
+        flex-shrink: 0;
+        padding: 10px;
+    }
+    &__round {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+    }
+    &__round1 {
+        background: #ba4270;
+    }
+    &__round2 {
+        background: #527695;
+    }
+    &__round3 {
+        background: #36536b;
+    }
+    &__bottom {
+        border-radius: 0 0 8px 8px;
+        background: #1b262f;
+        box-shadow: 25px 25px 80px 0px rgba(54, 83, 107, 0.3);
+        width: 445px;
+        height: 284px;
+        flex-shrink: 0;
+    }
+    &__square {
+        width: 381px;
+        height: 180px;
+        padding: 32px;
+    }
+    &__text {
+        color: #fbfcfe;
+        font-family: "Roboto Mono";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    &__right {
+        max-width: 445px;
+        max-height: 164px;
+        margin-left: 125px;
+        margin-right: 91px;
+        margin-top: 60px;
+    }
+    &__name {
+        color: #36536b;
+        font-family: "DM Serif Display";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; /* 116.667% */
+        letter-spacing: -0.369px;
+    }
+    &__text1 {
+        color: #6c8294;
+        margin-top: 24px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 186.667% */
+    }
+}

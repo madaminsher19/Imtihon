@@ -2,6 +2,7 @@
 @import "./btn";
 @import "./hero";
 @import "./section";
+@import "./box";
 
 
 *{
@@ -18,6 +19,10 @@
 @font-face {
     font-family: "Public Sans";
     src: url(../Fonts/Public_Sans/PublicSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Roboto Mono";
+    src: url(../Fonts/Roboto-Regular.ttf);
 }
 body{
     font-family: "Public Sans";
