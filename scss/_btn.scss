@@ -1,9 +1,10 @@
 .btn {
-    // flex-shrink: 0;
+    z-index: 5;
     &__style {
         width: 200px;
         height: 48px;
         background: #ba4270;
+        
         border-radius: 24px;
         border: none;
         color: #fbfcfe;
@@ -24,7 +25,7 @@
 }
 .btn__style:active {
     
-    background: #da6d9750;
+    background-color: #da6d9750;
 
 }
 
