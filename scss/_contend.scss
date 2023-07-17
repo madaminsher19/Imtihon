@@ -1,0 +1,42 @@
+.contend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 162px;
+    &__left {
+        width: 445px;
+    }
+    &__name {
+        color: #36536b;
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; /* 116.667% */
+        letter-spacing: -0.369px;
+    }
+    &__text {
+        color: #6c8294;
+        margin-top: 25px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 186.667% */
+    }
+    &__rigth {
+        display: block;
+        position: relative;
+        z-index: 51;
+    }
+    &__img {
+        width: 257.649px;
+        height: 498.861px;
+    }
+}
+.box::before{
+    content: url(../img/svj/simple.svg);
+    right:0;
+    top: 100px;
+    position: absolute;
+    z-index: -1;
+}
