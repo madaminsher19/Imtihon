@@ -42,13 +42,13 @@
     .background::before {
         display: none;
     }
-    .background::after {
-        content: url(../img/svj/header-b-t.svg);
-        position: absolute;
-        display: block;
-        z-index: 1;
-        // right: 0;
-    }
+    // .background::after {
+    //     content: url(../img/svj/header-b-t.svg);
+    //     position: absolute;
+    //     display: block;
+    //     z-index: 1;
+    //     // right: 0;
+    // }
 }
 .background::before {
     content: url(../img/svj/header-before.svg);
