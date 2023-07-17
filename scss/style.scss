@@ -35,12 +35,6 @@ body{
     background: #EDF3F8;
     z-index: 0;
 }
-.background::before{
-    content: url(../img/svj/Before.svg);
-    position: absolute;
-    z-index: 1;
-    right: 0;
-}
 .container{
     max-width: 1110px;
     margin: 0 auto;

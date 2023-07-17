@@ -54,14 +54,6 @@ section {
         margin-top: 100px;
     }
 }
-
-.section::before {
-    content: url(../img/svj/B.svg);
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: -150px;
-}
 @media only screen and (max-width: 900px) {
     .section {
         flex-direction: column-reverse;
@@ -75,16 +67,6 @@ section {
             margin-top: 100px;
         }
     }
-    .section::before {
-        content: url(../img/svj/Befofe2.svg);
-        position: absolute;
-        z-index: 1;
-        top: 0;
-        right: -500px;
-        width: 100%;
-        max-width: 900px;
-        min-width: 650px;
-    }
 }
 @media only screen and (max-width: 650px) {
     .section {
@@ -95,12 +77,5 @@ section {
         grid-template-rows: repeat(3, 1fr);
         margin-bottom: 30px;
         }
-    }
-
-    .section::before {
-        content: url(../img/svj/Befofe2.svg);
-        position: absolute;
-        z-index: 1;
-      
     }
 }
