@@ -1,5 +1,12 @@
-.background {
+.background1 {
     background: #edf3f8;
+    position: relative;
+}
+.background1::before{
+    content: url(../img/svj/contend-before.svg);
+    position: absolute;
+    right: 0;
+    top: 450px;
 }
 .box {
     display: flex;
@@ -40,10 +47,11 @@
     }
     &__square {
         max-width: 381px;
-        max-height: 230px;
+        max-height: 300px;
         padding: 10px;
     }
     &__text {
+        padding: 15px;
         color: #fbfcfe;
         font-family: "Roboto Mono";
         font-size: 16px;

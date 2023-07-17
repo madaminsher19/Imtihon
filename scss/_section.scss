@@ -1,5 +1,11 @@
 section {
     background: #1b262f;
+    position: relative;
+}
+section::after{
+    content: url(../img/svj/section-after.svg);
+    position: absolute;
+    top: 0;  
 }
 .section {
     display: flex;

@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 162px;
+    position: relative;
+    z-index: 1;
     &__left {
         width: 445px;
     }
@@ -31,6 +33,7 @@
         height: 498.861px;
     }
 }
+
 @media only screen and (max-width: 965px) {
     .contend {
         flex-direction: column-reverse;
